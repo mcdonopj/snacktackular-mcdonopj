@@ -1,11 +1,8 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '11.0'
+platform :ios, '12.0'
 
-source 'https://github.com/CocoaPods/Specs.git'
 target 'Snacktacular' do
-  use_frameworks!
     pod 'GooglePlaces'
-    pod 'GooglePlacePicker'
     pod 'GoogleMaps'
     pod 'Firebase/Core'
     pod 'Firebase/Storage'

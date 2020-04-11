@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vfD-nU-yAv">
-    <device id="retina5_9" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vfD-nU-yAv">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="AvenirNextCondensed.ttc">
-            <string>AvenirNextCondensed-Bold</string>
-            <string>AvenirNextCondensed-DemiBold</string>
-        </array>
-        <array key="VerdanaBold.ttf">
-            <string>Verdana-Bold</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Spots List View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -35,7 +24,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2IP-ka-3K6" id="X51-Os-IPJ">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59.666666666666664"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restaurant Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqC-12-jiu">
@@ -103,7 +92,7 @@
                         <barButtonItem key="leftBarButtonItem" title="Sign Out" id="0Xl-Y6-OJl"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="h6L-yW-eBN">
                             <connections>
-                                <segue destination="bJy-tV-PMh" kind="presentation" identifier="AddSpot" id="Pko-9g-ZUS"/>
+                                <segue destination="bJy-tV-PMh" kind="presentation" identifier="AddSpot" modalPresentationStyle="fullScreen" id="Pko-9g-ZUS"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -142,7 +131,6 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="18" id="ZuE-On-3si"/>
                                         </constraints>
-                                        <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -261,10 +249,10 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReviewCell" id="H2C-9f-qks" customClass="SpotReviewsTableViewCell" customModule="Snacktacular" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="H2C-9f-qks" id="OE9-Y8-sOa">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title of Review" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1Z-ix-Pxw">
@@ -409,12 +397,12 @@
             <point key="canvasLocation" x="1249" y="-291"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="camera-icon-white" width="24" height="17"/>
-        <image name="star-empty" width="158" height="150"/>
-        <image name="star-white" width="30" height="29"/>
-    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Zox-RK-nHB"/>
     </inferredMetricsTieBreakers>
+    <resources>
+        <image name="camera-icon-white" width="24" height="17"/>
+        <image name="star-empty" width="158" height="150"/>
+        <image name="star-white" width="30.666666030883789" height="29"/>
+    </resources>
 </document>

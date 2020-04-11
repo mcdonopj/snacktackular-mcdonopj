@@ -11,6 +11,7 @@
 		3E0F960C2065A17500AE450D /* SpotDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F960B2065A17500AE450D /* SpotDetailViewController.swift */; };
 		3E0F960E2065AB6400AE450D /* SpotReviewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F960D2065AB6400AE450D /* SpotReviewsTableViewCell.swift */; };
 		3E0F96102065AC1A00AE450D /* SpotPhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F960F2065AC1A00AE450D /* SpotPhotosCollectionViewCell.swift */; };
+		3E75FC4A2441512000C8DBB1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3E75FC492441512000C8DBB1 /* Podfile */; };
 		3E8390E0206597F600512DEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8390DF206597F600512DEA /* AppDelegate.swift */; };
 		3E8390E2206597F600512DEA /* SpotsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8390E1206597F600512DEA /* SpotsListViewController.swift */; };
 		3E8390E5206597F600512DEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E8390E3206597F600512DEA /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		3E0F960B2065A17500AE450D /* SpotDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailViewController.swift; sourceTree = "<group>"; };
 		3E0F960D2065AB6400AE450D /* SpotReviewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotReviewsTableViewCell.swift; sourceTree = "<group>"; };
 		3E0F960F2065AC1A00AE450D /* SpotPhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotPhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		3E75FC492441512000C8DBB1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 		3E8390DC206597F600512DEA /* Snacktacular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snacktacular.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8390DF206597F600512DEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E8390E1206597F600512DEA /* SpotsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotsListViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				3E8390E6206597F600512DEA /* Assets.xcassets */,
 				3E8390E8206597F600512DEA /* LaunchScreen.storyboard */,
 				3E8390EB206597F600512DEA /* Info.plist */,
+				3E75FC492441512000C8DBB1 /* Podfile */,
 			);
 			path = Snacktacular;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				3E8390EA206597F600512DEA /* LaunchScreen.storyboard in Resources */,
 				3E8390E7206597F600512DEA /* Assets.xcassets in Resources */,
+				3E75FC4A2441512000C8DBB1 /* Podfile in Resources */,
 				3E8390E5206597F600512DEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
