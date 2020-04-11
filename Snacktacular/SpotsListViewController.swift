@@ -18,6 +18,8 @@
 //        let loginViewController = authUI.authViewController()
 //        loginViewController.modalPresentationStyle = .fullScreen
 //        present(loginViewController, animated: true, completion: nil)
+//    } else {
+//        tableView.isHidden = false
 //    }
 //}
 
